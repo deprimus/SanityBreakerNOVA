@@ -1,0 +1,49 @@
+{
+    "name": "Express+",
+    "description": "Lots of ticks per second. Put your machine to the test.",
+    "brief": [
+        "~+ Deprimus",
+        "+Significantly higher Traumatizatus threshold",
+        "+Weak bricks",
+        "+Destructible bricks for chaotic ball",
+        "+Double brick destruction is allowed",
+        "-Fericitus can't spawn naturally",
+        "-Insanely strong bricks",
+        "-Very low dynamic tick delay"
+    ],
+
+    "deprimus_spawn_chance": 0.2,
+    "deprimus_chances": {
+        "fericitus": 0
+    },
+
+    "ball_color_change_chance": 0.1,
+    "ball_max_colors": 3,
+    "ball_teleport_chance": 0.15,
+    "ball_velocity_change_chance": 0,
+
+    "shake_multiplier": 1,
+    "shake_stack": true,
+
+    "indestructible_bricks_for_chaotic_ball": false,
+    "allow_double_brick_destruction": true,
+    "brick_max_strength_break_chance": 1,
+    "allow_player_side_collisions": false,
+
+    "nova_mode_duration": 5,
+    "nova_mode_min_instant_omnideprimus": 2,
+    "nova_mode_max_instant_omnideprimus": 6,
+
+    "omnideprimus_polymorph_delay": 0.05,
+    "traumatizatus_threshold": 50,
+
+    "brick_strengths": [
+        1, 1, 1, 1, 1, 1
+    ],
+
+    "tick_delay": {
+        "dynamic": true,
+        "min": 0.05,
+        "max": 0.1
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "name": "Red Tunnel",
+    "description": "You are blinded by rage.",
+    "brief": [
+        "~++ Nervosus, Crizatus"
+    ],
+
+    "deprimus_spawn_chance": 0.2,
+    "deprimus_chances": {
+        "nervosus": 30,
+        "crizatus": 30
+    },
+
+    "ball_color_change_chance": 0.1,
+    "ball_max_colors": 3,
+    "ball_teleport_chance": 0.15,
+    "ball_velocity_change_chance": 0,
+
+    "shake_multiplier": 1,
+    "shake_stack": true,
+
+    "indestructible_bricks_for_chaotic_ball": true,
+    "allow_double_brick_destruction": false,
+    "brick_max_strength_break_chance": 1,
+    "allow_player_side_collisions": false,
+
+    "nova_mode_duration": 5,
+    "nova_mode_min_instant_omnideprimus": 2,
+    "nova_mode_max_instant_omnideprimus": 6,
+
+    "omnideprimus_polymorph_delay": 0.05,
+    "traumatizatus_threshold": 10,
+
+    "brick_strengths": [
+        3, 2, 2, 1, 1, 1
+    ],
+
+    "tick_delay": {
+        "dynamic": true,
+        "min": 0.1,
+        "max": 0.5
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "name": "Express",
+    "description": "Everything is fast. Very fast.",
+    "brief": [
+        "~++ Agillius, Plansus",
+        "~+ Hlizatus, Wheezus",
+        "+Weak bricks",
+        "+Destructible bricks for chaotic ball",
+        "+Double brick destruction is allowed",
+        "-Much larger shake multiplier",
+        "-Higher ball teleportation chance",
+        "-High ball velocity change chance"
+    ],
+
+    "deprimus_spawn_chance": 0.2,
+    "deprimus_chances": {
+        "agillius": 60,
+        "plansus": 35,
+        "hlizatus": 10,
+        "wheezus": 5
+    },
+
+    "ball_color_change_chance": 0.1,
+    "ball_max_colors": 3,
+    "ball_teleport_chance": 0.2,
+    "ball_velocity_change_chance": 0.1,
+
+    "shake_multiplier": 2,
+    "shake_stack": true,
+
+    "indestructible_bricks_for_chaotic_ball": false,
+    "allow_double_brick_destruction": true,
+    "brick_max_strength_break_chance": 1,
+    "allow_player_side_collisions": false,
+
+    "nova_mode_duration": 5,
+    "nova_mode_min_instant_omnideprimus": 2,
+    "nova_mode_max_instant_omnideprimus": 6,
+
+    "omnideprimus_polymorph_delay": 0.05,
+    "traumatizatus_threshold": 10,
+
+    "brick_strengths": [
+        1, 1, 1, 1, 1, 1
+    ],
+
+    "tick_delay": {
+        "dynamic": true,
+        "min": 0.1,
+        "max": 0.35
+    }
+}
